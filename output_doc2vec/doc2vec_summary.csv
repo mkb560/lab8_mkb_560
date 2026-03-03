@@ -1,0 +1,4 @@
+name,vector_size,min_count,epochs,window,dm,n_docs,n_clusters,silhouette_cosine,cluster_size_std,cluster_size_min,cluster_size_max
+cfg_small,50,2,20,8,1,5097,8,0.7483,1664.82,3,4753
+cfg_medium,100,3,25,8,1,5097,8,0.7159,1743.89,2,4952
+cfg_large,200,5,35,8,1,5097,8,0.5917,1770.96,5,5020

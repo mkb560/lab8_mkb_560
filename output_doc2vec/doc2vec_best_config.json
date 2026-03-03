@@ -1,0 +1,14 @@
+{
+  "name": "cfg_small",
+  "vector_size": 50,
+  "min_count": 2,
+  "epochs": 20,
+  "window": 8,
+  "dm": 1,
+  "n_docs": 5097,
+  "n_clusters": 8,
+  "silhouette_cosine": 0.7483,
+  "cluster_size_std": 1664.82,
+  "cluster_size_min": 3,
+  "cluster_size_max": 4753
+}
