@@ -1,0 +1,12 @@
+{
+  "name": "cfg_medium",
+  "k_bins": 100,
+  "w2v_dim": 100,
+  "min_count": 2,
+  "epochs": 10,
+  "window": 5,
+  "n_docs": 5097,
+  "n_clusters": 8,
+  "silhouette_cosine": 0.0097,
+  "cluster_size_std": 1714.84
+}

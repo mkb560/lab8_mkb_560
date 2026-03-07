@@ -1,0 +1,4 @@
+name,k_bins,w2v_dim,min_count,epochs,window,n_docs,n_clusters,silhouette_cosine,cluster_size_std
+cfg_medium,100,100,2,10,5,5097,8,0.0097,1714.84
+cfg_small,50,100,2,10,5,5097,8,0.0086,1595.6
+cfg_large,200,100,2,10,5,5097,8,-0.0091,1541.63
