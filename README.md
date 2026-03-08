@@ -1,6 +1,3 @@
-# lab8_mkb_560
-lab8_mkb_560
-
 # Lab 8: Comparative Analysis of Doc2Vec and Word2Vec
 
 **Group 10** | Mingtao Ding, Ke Wu, Yi-Hsien Lou
