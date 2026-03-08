@@ -26,3 +26,7 @@ Models were evaluated across three dimensions:
 ## 📝 Code Desciption
 
 `distribution.py`: read data in pandas and use seaborn to visualize the cluster distribution. 
+
+`doc2vec_memberA.py`:
+
+`w2v_bin_memberB.py`: 
