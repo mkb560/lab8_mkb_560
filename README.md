@@ -24,6 +24,6 @@ Models were evaluated across three dimensions:
 
  `doc2vec_memberA.py`: trains Doc2Vec embeddings on Reddit posts, clusters documents with agglomerative clustering using cosine distance, evaluates cluster quality via the silhouette score, and writes cluster assignments and top exemplars per cluster to CSV/JSON files; it accepts command-line options to limit input size, set the number of clusters, and choose the output directory.
 
-`w2v_bin_memberB.py`: 
+`w2v_bin_memberB.py`: This script implements a Word2Vec-based binning methodology for document representation and clustering. It extracts Reddit data from a MySQL database, trains word embeddings, and uses K-Means clustering to group words into semantic bins. Each document is then transformed into a normalized frequency vector based on these bins, followed by document-level clustering using Agglomerative Clustering with a cosine distance metric. Finally, the pipeline evaluates performance across three different dimensions (K=50,100,200) using silhouette scores to determine the most effective embedding configuration.
 
 `distribution.py`: read data in pandas and use seaborn to visualize the cluster distribution.
